@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  line-height: 16px;
+}
+header {
+  background-image: linear-gradient(
+      rgba(40, 42, 53, 0.9),
+      rgba(40, 42, 53, 0.9)
+    ),
+    url('images/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg');
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  color: rgb(54, 55, 63);
+  padding-bottom: 3rem;
+  background-size: cover;
+}
+.brand-logo {
+  width: 7%;
+  margin-top: 1rem;
+}
+.login-btn {
+  padding: 10px 2.5rem;
+  border: 2px solid rgb(5, 152, 98);
+  border-radius: 2rem;
+  background-color: rgba(56, 57, 66, 0.8);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  position: absolute;
+  right: 2.5rem;
+  top: 1rem;
+}
+.login-btn:hover {
+  background-color: rgb(56, 57, 66);
+  border: 2px solid rgb(2, 121, 78);
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  height: 80%;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  color: white;
+}
+.h1 {
+  font-size: 2rem;
+  word-spacing: 0px;
+  margin-bottom: 1.5rem;
+}
+.p1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.p2 {
+  font-size: 20px;
+  line-height: 36px;
+}
+.get-start-btn {
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  border-width: 0px;
+  background-color: #037D50;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.service-container {
+  max-width: 63rem;
+  margin: 0px auto;
+  height: auto;
+  display: flex;
+  line-height: 28.8px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.item {
+  max-width: 14rem;
+  text-align: center;
+  padding: 0rem;
+  margin: 2rem;
+}
+.get-start-btn:hover {
+  background-color: rgb(11, 134, 89);
+  cursor: pointer;
+}
+.item > h2 {
+  color: rgb(4, 170, 109);
+}
+.work-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.img {
+  margin: 10px;
+}
+.how-it-works {
+  width: 100%;
+  background-color: rgb(40, 42, 53);
+  padding: 4rem;
+  color: white;
+  text-align: center;
+}
+.work-explain {
+  max-width: 64rem;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.para {
+  max-width: 12rem;
+  margin: 0rem 2rem;
+}
+.price-plan-container {
+  background-color: rgb(244, 250, 246);
+  padding: 0rem;
+}
+.price-heading {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.div,
+h1,
+p {
+  margin-top: 2rem;
+}
+.div,
+p > span > img {
+  width: 3rem;
+  margin: 0px 1rem;
+  transform: translate(0px, 20%);
+  cursor: pointer;
+}
+.price-plan-main-container {
+  width: 58rem;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  position: relative;
+}
+.price-plan-body {
+  width: 58rem;
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: end;
+  margin: 0px auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+.free-plan {
+  background-color: rgb(40, 42, 53);
+  max-width: 18rem;
+  color: white;
+  padding: 2rem 2rem 3rem;
+  border-radius: 15px;
+  position: absolute;
+  top: 2%;
+  left: 6%;
+}
+.free {
+  width: 100%;
+  padding: 0.6rem 2rem;
+  background-color: rgb(255, 244, 163);
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3rem;
+  text-align: center;
+}
+.free-amount {
+  width: 100%;
+  margin: 1.5rem 0px;
+}
+#free {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+.free-plan > h2 {
+  margin-bottom: 1rem;
+}
+.free-plan > p {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.list-group {
+  list-style-type: none;
+}
+.list-group > li {
+  background-image: url('/W3Project/images/check-dark.86e19693.svg');
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#get-start-btn {
+  background-color: rgb(244, 185, 192);
+  padding: 0.8rem 2.7rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem auto 0px;
+  cursor: pointer;
+  border-style: none;
+}
+.pro {
+  max-width: 18rem;
+  border-radius: 15px;
+  padding: 2rem;
+  font-size: 15px;
+}
+.pro > h2 {
+  margin: 1.5rem 0px;
+}
+.pro > p {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pro-list-group {
+  list-style-type: none;
+}
+.pro-list-group > li {
+  background-image: url('/W3Project/images/check3.db67d31e.svg');
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.price-btn {
+  background-color: rgb(4, 170, 109);
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem auto 0px;
+  cursor: pointer;
+  border-style: none;
+  color: white;
+}
+#pro {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+.premium {
+  max-width: 18rem;
+  border-radius: 15px;
+  padding: 2rem;
+}
+.premium > h2 {
+  margin: 1.5rem 0px;
+}
+.premium > p {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.premium-list-group {
+  list-style-type: none;
+}
+.premium-list-group > li {
+  background-image: url('/W3Project/images/check3.db67d31e.svg');
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+  padding-bottom: 14px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#premium {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+.terms-container {
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0px;
+}
+hr {
+  height: 90%;
+}
+.terms-container > a {
+  margin-top: 1rem;
+  color: rgb(4, 170, 109);
+  font-weight: bold;
+  text-decoration: none;
+}
+.terms-container > a:hover {
+  text-decoration: underline;
+}
+.terms {
+  width: 30rem;
+  margin: 0px auto;
+  text-align: center;
+}
+.terms > small > a {
+  text-decoration: none;
+  color: skyblue;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0px;
+  color: gray;
+  font-size: smaller;
+}
+.copyright > small > a:hover {
+  color: rgb(14, 170, 112);
+  text-decoration: underline;
+}
+.copyright > small > a {
+  color: gray;
+}
+.terms {
+  padding-bottom: 2rem;
+}
